@@ -8935,16 +8935,16 @@ a, button {
 @media only screen and (max-width: 576px) {
   .head-bg .button-notification {
     position: absolute;
-    right: 50px; }
+    right: 45px; }
   .head-bg .navbar-top .label-search {
     left: 10px;
     top: 0; }
   .head-bg .navbar-top .btn-nav-select {
-    left: 25px; }
+    left: 22px; }
   .head-bg .navbar-top .form-control {
     padding-left: 50px; }
   .head-bg .form-inline .btn-search {
-    right: 10px; }
+    right: 4px; }
   .section-select .card-selection {
     padding-left: 50px;
     padding-right: 50px; } }
@@ -8983,9 +8983,6 @@ a, button {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .head-bg .button-notification {
-    position: absolute;
-    right: 45px; }
   .head-bg .navbar-top {
     padding-left: 8px;
     padding-right: 8px; }
