@@ -1,0 +1,188 @@
+/* grid */
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.6%;
+}
+
+.col-10 {
+    width: 83.3%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.6%;
+}
+
+.col-7 {
+    width: 58.3%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.6%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.6%;
+}
+
+.col-1 {
+    width: 8.3%;
+}
+
+/* common styles */
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 980px;
+}
+
+/* colors */
+
+.bg-light {
+    background-color: white;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-dark-red {
+    background-color: rgb(137, 13, 1);
+}
+
+/* header */
+
+.top-wrap {
+    color: white;
+    height: 30px;
+}
+
+.menu-wrap, .help-area {
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.help-area {
+    justify-content: flex-end;
+}
+
+.menu li {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.menu li:not(:last-child):after {
+    content: '.';
+    padding: 0 10px 0 12px;
+}
+
+.contact-wrap {
+    height: 100%;
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+.telephone-block, .live-help-block, .localization-wrap, .contact-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.telephone-block img {
+    height: 30px;
+    width: 25px;
+}
+
+.telephone-block span {
+    margin-left: 4px;
+}
+
+.live-help-block img {
+    height: 22px;
+    width: 31px;
+}
+
+.live-help-block span {
+    margin-left: 4px;
+}
+
+.localization-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.localization-wrap img {
+    height: 28px;
+    width: 25px;
+}
+
+/* middle-header */
+
+.middle-header {
+    height: 100px
+}
+
+/* nav */
+
+.nav-wrap {
+    height: 42px;
+}
+
+/* main-content */
+
+.main-content-wrap {
+    height: 1335px;
+}
+
+.main-content-block {
+    height: 1280px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* before-footer */
+
+.before-footer-wrap {
+    height: 60px;
+}
+
+/* footer */
+
+.footer-wrap {
+    height: 245px;
+}
